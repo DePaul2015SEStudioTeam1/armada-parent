@@ -2,14 +2,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.depaul</groupId>
-	<artifactId>parent</artifactId>
+	<artifactId>armada-parent</artifactId>
 	<packaging>pom</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<modules>armada</modules>
-	<modules>armada-api</modules>
-	<modules>agent</modules>
-	<modules>agent-api</modules>
+	<modules>
+	   <module>armada</module>
+	   <module>armada-api</module>
+       <module>agent</module>
+       <module>agent-api</module>
+	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
