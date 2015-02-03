@@ -6,12 +6,14 @@
 	<packaging>pom</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
+	<!-- 
 	<modules>
 	   <module>armada</module>
 	   <module>armada-api</module>
        <module>agent</module>
        <module>agent-api</module>
 	</modules>
+    -->
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
